@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <img src={QuizImage} alt="quiz-logo" />
-      <h1>React Quiz!!</h1>
+      <h1>React Quiz!!!</h1>
     </header>
   );
 };
