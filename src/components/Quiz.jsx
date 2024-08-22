@@ -16,7 +16,7 @@ const Quiz = () => {
     (selectedAnswer) => {
       setAnswerState("answered");
       setUserAnswers((prevAns) => {
-        return [...prevAns];
+        return [...prevAns, selectedAnswer];
       });
 
       setTimeout(() => {
