@@ -23,7 +23,7 @@ const Quiz = () => {
   if (isQuizComplete) {
     return (
       <>
-        <Summary />
+        <Summary userAnswers={userAnswers}/>
       </>
     );
   }
